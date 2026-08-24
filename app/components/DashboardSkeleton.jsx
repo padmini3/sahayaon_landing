@@ -84,7 +84,7 @@ export default function DashboardSkeleton() {
 
             <div className="mockup-user-actions">
               <div className="action-icon">☼</div>
-              <div className="mockup-avatar skeleton-shimmer"></div>
+              <img src="/avatar.png" alt="Profile" className="mockup-avatar" />
             </div>
           </header>
 
@@ -97,9 +97,11 @@ export default function DashboardSkeleton() {
 
           {/* Content Grid */}
           <div className="mockup-content-grid">
-            {/* Left Profile Skeleton Card */}
+            {/* Left Profile Card */}
             <div className="mockup-card profile-card">
-              <div className="profile-avatar-circle skeleton-shimmer"></div>
+              <div className="profile-avatar-wrapper">
+                <img src="/avatar.png" alt="User Profile" className="profile-avatar-img" />
+              </div>
               
               <div className="skeleton-line skeleton-shimmer title-line"></div>
               
