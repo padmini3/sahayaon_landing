@@ -73,12 +73,6 @@ export default function DashboardSkeleton() {
         <div className="mockup-main">
           {/* Top Bar */}
           <header className="mockup-topbar">
-            <div className="mockup-brand-tag">
-              <span className="brand-logo-icon">▲</span>
-              <span className="brand-name">KRIASOL</span>
-              <span className="brand-sub">Technologies</span>
-            </div>
-
             <div className="mockup-search">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <circle cx="11" cy="11" r="8"></circle>
