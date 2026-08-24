@@ -1,3 +1,5 @@
+import DashboardSkeleton from './components/DashboardSkeleton';
+
 export default function Home() {
   return (
     <main className="page">
@@ -43,11 +45,8 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="hero-image">
-          <img
-            src="/dashboard.png"
-            alt="SahayaOn IT Operations Dashboard"
-          />
+        <div className="hero-mockup-wrapper">
+          <DashboardSkeleton />
         </div>
       </section>
 
