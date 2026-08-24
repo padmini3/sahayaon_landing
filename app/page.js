@@ -33,9 +33,14 @@ export default function Home() {
             and measurable SLA performance.
           </p>
 
-          <button className="get-started" type="button">
+          <a
+            href="https://my.sahayaon.com/login"
+            className="get-started"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Get Started
-          </button>
+          </a>
         </div>
 
         <div className="hero-image">
